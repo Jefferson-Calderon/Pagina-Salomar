@@ -1,0 +1,31 @@
+  .sleek-socials {
+    display: flex;
+    gap: 18px;
+    margin-top: 25px;
+  }
+
+  .sleek-socials .social-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    /* esquinas redondeadas estilo neumorphic */
+    background: #0d0d20;
+    /* fondo oscuro como tu ejemplo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b40000;
+    /* rojo borgoña similar */
+    font-size: 16px;
+    border: 1px solid rgba(180, 0, 0, 0.25);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+
+  .sleek-socials .social-box:hover {
+    transform: translateY(-4px);
+    background: #b40000;
+    /* se vuelve rojo en hover */
+    color: #fff;
+    border-color: #b40000;
+  }
