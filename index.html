@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sanlomar Group S.A.C.</title>
+  <meta name="description" content="<?= $data['page_description'] ?? ''; ?>">
+  <meta name="keywords" content="<?= $data['page_keywords'] ?? ''; ?>">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="<?= media() ?>/images/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/aos/aos.css">
+  <link rel="stylesheet" href="vendors/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="vendors/glightbox/css/glightbox.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/redes.css">
+</head>
+
+
+<body class="index-page">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- <img src="assets/img/logo2.png" alt=""> -->
+        <!-- Nombre para DESKTOP (lg y xl) -->
+        <h1 class="sitename d-none d-lg-block" style="font-size:16px; font-weight:bold ;">
+          SANLOMAR GROUP S.A.C.
+        </h1>
+        <!-- Nombre para TABLETS (md) -->
+        <h1 class="sitename d-none d-md-block d-lg-none" style="font-size:16px;">
+          Sanlomar Group S.A.C.
+        </h1>
+        <!-- Nombre para MÓVILES (xs y sm) -->
+        <h1 class="sitename d-block d-md-none" style="font-size:16px;">
+          Sanlomar Group S.A.C.
+        </h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#acercade">Acerca de</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <a class="btn-getstarted" style="background-color: transparent; color: #1b1933"></a>
+          <a class="btn-getstarted" style="background-color: transparent; color: #1b1933"></a>
+
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted" href="#contact">Contacto</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="hero-content">
+              <h1>¡Te Ofrecemos!</h1>
+              <p>Servicio de reparación y mantenimiento de contenedores, venta de contenedores , servicio de
+                transportes.</p>
+              <div class="hero-buttons">
+                <a href="#servicios" class="btn btn-primary">Más Información</a>
+              </div>
+              <div class="hero-stats">
+                <div class="hero-socials sleek-socials">
+                  <a href="#" class="social-box"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/sanlomargroup/" class="social-box"><i
+                      class="bi bi-instagram"></i></a>
+                  <a href="https://www.tiktok.com/@sanlomargroupsac?is_from_webapp=1&sender_device=pc"
+                    class="social-box"><i class="bi bi-tiktok"></i></a>
+                  <a href="mailto:sanlomargroup.contacto@gmail.com" class="social-box"><i
+                      class="bi bi-envelope-fill"></i></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="hero-visual">
+              <div class="hero-image">
+                <img src="assets/img/misc/misc-16.jpg" alt="Digital Agency Hero" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bg-elements">
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+        <div class="bg-particles"></div>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- Acercade Section -->
+    <section id="acercade" class="acercade section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-5 align-items-center">
+
+          <!-- Imagen -->
+          <div class="col-lg-5 col-md-6 col-sm-12">
+            <div class="h-100">
+              <img src="assets/img/misc/header2.png" class="img-fluid w-100 h-100 custom-img-style"
+                alt="acercade-image">
+            </div>
+          </div>
+
+          <!-- Contenido -->
+          <div class="col-lg-7 col-md-6 col-sm-12 bg-logo">
+            <h2 style="font-family: 'Quicksand', sans-serif; font-weight: bold;">¿Quiénes Somos?</h2>
+            <p class="mb-4 text-justify">
+              Somos una empresa operadora en Paita dedicada a ofrecer soluciones rápidas y
+              confiables en logística, transporte y reparación de contenedores. Ayudamos a que cada operación avance sin
+              interrupciones, con eficiencia y soporte especializado.
+            </p>
+
+            <!-- Tabs -->
+            <div class="content" data-aos="fade-left" data-aos-delay="300">
+              <div class="tabulation-2 mt-4">
+                <!-- Encabezados de Tabs -->
+                <ul class="nav nav-pills nav-fill d-md-flex d-block">
+                  <li class="nav-item mb-md-0 mb-2">
+                    <a class="nav-link active py-2" data-bs-toggle="tab" href="#mision">Misión Empresarial</a>
+                  </li>
+                  <li class="nav-item px-lg-2 mb-md-0 mb-2">
+                    <a class="nav-link py-2" data-bs-toggle="tab" href="#vision">Visión Empresarial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-2 mb-md-0 mb-2" data-bs-toggle="tab" href="#valores">Valores</a>
+                  </li>
+                </ul>
+
+                <!-- Contenido de Tabs -->
+                <div class="tab-content rounded mt-2">
+                  <!-- Misión -->
+                  <div class="tab-pane container p-0 active" id="mision">
+                    <p class="text-justify">
+                      Nuestra misión es satisfacer las necesidades de nuestros clientes y superar sus
+                      expectativas, brindando servicios y productos de alta calidad con resultados
+                      respaldados por nuestro capital humano.
+                    </p>
+                  </div>
+
+                  <!-- Visión -->
+                  <div class="tab-pane container p-0 fade" id="vision">
+                    <p class="text-justify">
+                      Nuestra visión es convertirnos en una marca reconocida a nivel nacional e
+                      internacional como operador logístico y proveedor de soluciones para contenedores,
+                      estableciendo nuevos estándares de excelencia y sostenibilidad en la industria.
+                    </p>
+                  </div>
+                  <!-- Valores -->
+                  <div class="tab-pane container p-0 fade" id="valores">
+                    <div class="row text-justify valores-grid">
+                      <div class="col-sm-4 mb-2">
+                        <p><i class="bi bi-check-circle-fill text-primary me-2"></i> Profesionalismo.</p>
+                      </div>
+
+                      <div class="col-sm-4 mb-2">
+                        <p><i class="bi bi-check-circle-fill text-primary me-2"></i> Eficiencia.</p>
+                      </div>
+
+                      <div class="col-sm-4 mb-2">
+                        <p><i class="bi bi-check-circle-fill text-primary me-2"></i> Responsabilidad.</p>
+                      </div>
+
+                      <div class="col-sm-4 mb-0">
+                        <p><i class="bi bi-check-circle-fill text-primary me-2"></i> Transparencia.</p>
+                      </div>
+
+                      <div class="col-sm-4 mb-0">
+                        <p><i class="bi bi-check-circle-fill text-primary me-2"></i> Compromiso.</p>
+                      </div>
+
+                      <div class="col-sm-4 mb-0">
+                        <p><i class="bi bi-check-circle-fill text-primary me-2"></i> Seguridad Operativa.</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+              <a class="btn btn-primary rounded-pill py-2 px-3 mt-3" href="#">
+                Más Información
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /Acercade Section -->
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="servicios section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Servicios</h2>
+        <p>Servicios de apoyo logístico y gestión de transporte adaptados a tus necesidades.</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="servicio-card">
+              <div class="servicio-icon">
+                <i class="bi bi-tools"></i>
+              </div>
+              <h4><a href="servicio-details.html">Reparación de Contenedores</a></h4>
+              <p>Servicio especializado en reparación estructural y corrección de daños en contenedores marítimos.</p>
+              <div class="servicio-badge">Más Solicitado</div>
+              <a href="servicio-details.html" class="servicio-link">
+                <span class="btn btn-primary rounded-pill py-2 px-3 mt-3">Ver Más
+                  <i class="bi bi-arrow-right"></i></span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="300">
+            <div class="servicio-card">
+              <div class="servicio-icon">
+                <i class="bi bi-wrench-adjustable"></i>
+              </div>
+              <h4><a href="servicio-details.html">Mantenimiento de Contenedores</a></h4>
+              <p>Mantenimiento preventivo y correctivo para asegurar el buen estado y prolongar la vida útil de los
+                contenedores.</p>
+              <a href="servicio-details.html" class="servicio-link">
+                <span class="btn btn-primary rounded-pill py-2 px-3 mt-3">Ver Más
+                  <i class="bi bi-arrow-right"></i></span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+            <div class="servicio-card">
+              <div class="servicio-icon">
+                <i class="bi bi-box-seam"></i>
+              </div>
+              <h4><a href="servicio-details.html">Venta de Contenedores</a></h4>
+              <p>Disponemos de nuevos contenedores y usados de diferentes tamaños según las necesidades del cliente.</p>
+              <a href="servicio-details.html" class="servicio-link">
+                <span class="btn btn-primary rounded-pill py-2 px-3 mt-3">Ver Más
+                  <i class="bi bi-arrow-right"></i></span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="500">
+            <div class="servicio-card">
+              <div class="servicio-icon">
+                <i class="bi bi-truck"></i>
+              </div>
+              <h4><a href="servicio-details.html">Servicio de Transporte</a></h4>
+              <p>Transporte seguro y eficiente de contenedores dentro y fuera del terminal portuario.</p>
+              <a href="servicio-details.html" class="servicio-link">
+                <span class="btn btn-primary rounded-pill py-2 px-3 mt-3">Ver Más
+                  <i class="bi bi-arrow-right"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="400">
+            <div class="servicios-cta">
+              <h3>¿Necesitas Servicios Especializados en Contenedores?</h3>
+              <p>Estamos listos para ayudarte con soluciones confiables, rápidas y certificadas.</p>
+              <a href="#contacto" class="btn btn-primary">Contáctanos Hoy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Servicios Section -->
+
+    <!-- Proyectos Section -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Proyectos y Soluciones</h2>
+        <p>Exploramos nuestros casos de éxito y soluciones implementadas en gestión</p>
+        <p>de inventario, reparación de contenedores y operaciones logísticas.</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">Todos los Proyectos</li>
+            <li data-filter=".filter-reparacion">Reparación & M&R</li>
+            <li data-filter=".filter-logistica">Logística & Importación</li>
+            <li data-filter=".filter-inventario">Optimización de Procesos</li>
+          </ul>
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <!-- Proyecto 1: Implementación de Inventario Digital (Optimización) -->
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-inventario">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-7.png" alt="Implementación de Sistema de Inventario Digital"
+                    class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-7.png" class="glightbox action-btn preview-btn"
+                        title="Implementación de Inventario Digital">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type" style="font-size: 10px; font-weight: bold;">Optimización de
+                      Procesos</span>
+                    <div class="project-rating" style="font-size: 12px;">
+                      <i class="bi bi-gear-fill"></i>
+                      <span>Mejora Operativa</span>
+                    </div>
+                  </div>
+                  <h3>Digitalización de Inventarios</h3>
+                  <p>Implementación de un sistema automatizado para reducir inconsistencias en el stock de materiales de
+                    reparación en un 50%.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 2: Reparación de Contenedores Reefer (Reparación) -->
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-reparacion">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-8.png"
+                    alt="Reparación y Mantenimiento de Contenedores Reefer" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-8.png" class="glightbox action-btn preview-btn"
+                        title="Reparación de Contenedores">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type" style="font-size: 10px; font-weight: bold;">Reparación & M&R</span>
+                    <div class="project-rating" style="font-size: 12px;">
+                      <i class="bi bi-tools"></i>
+                      <span>Servicio Crítico</span>
+                    </div>
+                  </div>
+                  <h3>Overhaul de Flota Reefer</h3>
+                  <p>Mantenimiento y certificación de unidades refrigeradas para garantizar la cadena de frío y el
+                    cumplimiento de normativas ISO.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 3: Logística de Maquinaria Pesada (Logística) -->
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-logistica">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-9.png"
+                    alt="Logística y Transporte de Carga Sobredimensionada" class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-9.png" class="glightbox action-btn preview-btn"
+                        title="Logística de Maquinaria Pesada">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type" style="font-size: 10px; font-weight: bold;">Logística &
+                      Importación</span>
+                    <div class="project-rating" style="font-size: 12px;">
+                      <i class="bi bi-truck"></i>
+                      <span>Alto Rendimiento</span>
+                    </div>
+                  </div>
+                  <h3>Transporte de Carga Especial</h3>
+                  <p>Coordinación y despacho integral de carga sobredimensionada (OOG) desde puerto hasta destino final.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 4: Optimización del Flujo de Taller (Optimización) -->
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-inventario">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-10.png" alt="Optimización de Tiempos de Ciclo en Taller"
+                    class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-10.png" class="glightbox action-btn preview-btn"
+                        title="Optimización del Flujo de Taller">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type" style="font-size: 10px; font-weight: bold;">Optimización de
+                      Procesos</span>
+                    <div class="project-rating" style="font-size: 12px;">
+                      <i class="bi bi-stopwatch"></i>
+                      <span>Lean Management</span>
+                    </div>
+                  </div>
+                  <h3>Reducción del Tiempo de Ciclo</h3>
+                  <p>Reingeniería del flujo de trabajo en el taller de reparación para reducir los tiempos de espera y
+                    aumentar el throughput de contenedores.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 5: Importación de Partes Críticas (Logística) -->
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-logistica">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-11.png" alt="Logística de Suministro de Partes de Repuesto"
+                    class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-11.png" class="glightbox action-btn preview-btn"
+                        title="Importación de Partes Críticas">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type" style="font-size: 10px; font-weight: bold;">Logística &
+                      Importación</span>
+                    <div class="project-rating" style="font-size: 12px;">
+                      <i class="bi bi-box-seam-fill"></i>
+                      <span>Suministro Rápido</span>
+                    </div>
+                  </div>
+                  <h3>Gestión de Repuestos</h3>
+                  <p>Estrategia de importación y almacenamiento de repuestos críticos para minimizar el tiempo de
+                    inactividad de los contenedores en reparación.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 6: Mantenimiento Estructural General (Reparación) -->
+            <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-reparacion">
+              <div class="portfolio-wrapper">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/portfolio-12.png" alt="Reparación Estructural de Contenedores Secos"
+                    class="img-fluid" loading="lazy">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portfolio-12.png" class="glightbox action-btn preview-btn"
+                        title="Mantenimiento Estructural General">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="project-type" style="font-size: 10px; font-weight: bold;">Reparación & M&R</span>
+                    <div class="project-rating" style="font-size: 12px;">
+                      <i class="bi bi-patch-check-fill"></i>
+                      <span>Calidad Estructural</span>
+                    </div>
+                  </div>
+                  <h3>Reparación Estructural</h3>
+                  <p>Servicios de soldadura, enderezado y reemplazo de paneles en contenedores Dry Van de 20 y 40 pies
+                    según estándares IICL.</p>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- End Portfolio Items Container -->
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Proyectos Section -->
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contacto section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contáctenos</h2>
+        <p>Estamos listos para transformar sus necesidades logísticas y de reparación de contenedores en soluciones
+          eficientes y rentables.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+
+          <!-- FORMULARIO -->
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="contacto-form-card">
+              <div class="form-header">
+                <div class="header-icon">
+                  <i class="bi bi-chat-dots-fill"></i>
+                </div>
+                <h3>Iniciemos una Conversación</h3>
+                <p>Permítanos entender sus requerimientos de reparación, importación o gestión logística. Nuestro equipo
+                  está listo para ofrecerle una respuesta personalizada.</p>
+              </div>
+
+              <form action="forms/contacto.php" method="post" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <input type="text" name="name" class="form-control" placeholder="Su Nombre" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" name="email" placeholder="Correo Electrónico" required>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <input type="text" class="form-control" name="subject" placeholder="¿Sobre qué es su consulta?"
+                    required>
+                </div>
+
+                <div class="mb-4">
+                  <textarea class="form-control" name="message" rows="4"
+                    placeholder="Cuéntenos más sobre su proyecto o necesidad..." required></textarea>
+                </div>
+
+                <div class="my-3">
+                  <div class="loading">Cargando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Su mensaje ha sido enviado. ¡Gracias!</div>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                  <span>Enviar Mensaje</span>
+                  <i class="bi bi-send-fill"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- INFORMACIÓN DE CONTACTO -->
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+            <div class="contacto-info-area">
+
+              <div class="info-header">
+                <h3>¿Necesita Reparación de Contenedores o Soporte Logístico?</h3>
+                <p>En SANLOMAR GROUP S.A.C. garantizamos eficiencia en la reparación y una gestión de inventario
+                  optimizada,
+                  asegurando que sus operaciones logísticas nunca se detengan.</p>
+              </div>
+
+              <div class="contacto-methods">
+
+                <!-- Correo -->
+                <div class="method-card" data-aos="zoom-in" data-aos-delay="250">
+                  <div class="card-icon">
+                    <i class="bi bi-envelope-fill"></i>
+                  </div>
+                  <div class="card-content">
+                    <h5>Envíenos un Correo</h5>
+                    <p>
+                      <a href="mailto:sanlomargroup.contacto@gmail.com" style="color: #fff;">
+                        sanlomargroup.contacto@gmail.com
+                      </a>
+                    </p>
+                    <span class="response-time">Tiempo de respuesta: 2 a 4 horas</span>
+                  </div>
+                </div>
+
+                <!-- Teléfono -->
+                <div class="method-card" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="card-icon">
+                    <i class="bi bi-telephone"></i>
+                  </div>
+                  <div class="card-content">
+                    <h5>Llámenos</h5>
+                    <p>(073) 700-0000</p>
+                    <span class="response-time">Disponible de 9:00 AM a 6:00 PM</span>
+                  </div>
+                </div>
+
+                <!-- Ubicación -->
+                <div class="method-card" data-aos="zoom-in" data-aos-delay="350">
+                  <div class="card-icon">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="card-content">
+                    <h5>Nuestra Ubicación</h5>
+                    <p>A.H. Ciudad Roja del Pescador, Mz. H1 Lt. 10A — Paita, Piura</p>
+                    <span class="response-time">Atención de Lunes a Viernes</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Métricas -->
+              <div class="additional-info" data-aos="fade-up" data-aos-delay="400">
+
+                <div class="info-stats">
+                  <div class="stat-item">
+                    <div class="stat-number">24h</div>
+                    <div class="stat-label">Respuesta Promedio</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Satisfacción del Cliente</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Proyectos Entregados</div>
+                  </div>
+                </div>
+
+                <!-- Redes Sociales -->
+                <div class="social-connect">
+                  <h6>Conéctese con Nosotros</h6>
+                  <div class="social-links">
+                    <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/sanlomargroup/" class="social-link"><i
+                        class="bi bi-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@sanlomargroupsac?is_from_webapp=1&sender_device=pc"
+                      class="social-link"><i class="bi bi-tiktok"></i></a>
+                    <a href="mailto:sanlomargroup.contacto@gmail.com" class="social-link"><i
+                        class="bi bi-envelope-fill"></i></a>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /Contacto Section -->
+  </main>
+  <!-- Footer Section -->
+  <footer id="footer" class="footer position-relative dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+
+        <!-- Sobre Sanlomar Group -->
+        <div class="col-lg-4 col-md-6 footer-acercade">
+          <!-- <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Sanlomar Group S.A.C.</span>
+          </a> -->
+          <div class="footer-links">
+            <h4>SANLOMAR GROUP S.A.C.</h4>
+            <ul>
+              <li><a><i class="fas fa-angle-right me-2"></i><strong>Dirección:</strong> Ciudad Roja del Pescador Mza.H1
+                  Lt.10a </a></li>
+              <li><a><i class="fas fa-angle-right me-2"></i><strong>RUC:</strong> 20525842721</a></li>
+              <li><a href="mailto:sanlomargroup.contacto@gmail.com"><i
+                    class="fas fa-angle-right me-2"></i><strong>Email:</strong>
+                  sanlomargroup.contacto@gmail.com</a></li>
+              <li><a><i class="fas fa-angle-right me-2"></i><strong>Teléfono:</strong> (073) 700-0000</a></li>
+            </ul>
+          </div>
+
+          <div class="social-links d-flex mt-4 align-items-center">
+            <i class="fas fa-share fa-3x text-white me-2"></i>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/sanlomargroup/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.tiktok.com/@sanlomargroupsac?is_from_webapp=1&sender_device=pc"><i
+                class="bi bi-tiktok"></i></a>
+            <a href="mailto:sanlomargroup.contacto@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+        <!-- Enlaces útiles -->
+        <div class="col-lg-2 col-md-4 footer-links">
+          <h4>ENLACES ÚTILES</h4>
+          <ul>
+            <li><i class="fas fa-angle-right me-2"></i><a href="#hero">Inicio</a></li>
+            <li><i class="fas fa-angle-right me-2"></i><a href="#quienes">Quiénes somos</a></li>
+            <li><i class="fas fa-angle-right me-2"></i><a href="#servicios">Servicios</a></li>
+            <li><i class="fas fa-angle-right me-2"></i><a href="#contacto">Contacto</a></li>
+            <li><i class="fas fa-angle-right me-2"></i><a href="#">Política de privacidad</a></li>
+          </ul>
+        </div>
+
+        <!-- Servicios -->
+        <div class="col-lg-3 col-md-4 footer-links">
+          <h4>NUESTROS SERVICIOS</h4>
+          <ul>
+            <li><i class="fas fa-angle-right me-2"></i><a href="#servicios">Reparación de contenedores</a></li>
+            <li><i class="fas fa-angle-right me-2"></i><a href="#servicios">Mantenimiento de contenedores</a></li>
+            <li><i class="fas fa-angle-right me-2"></i><a href="#servicios">Venta de Contenedores</a></li>
+            <li><i class="fas fa-angle-right me-2"></i><a href="#servicios">Servicio de Transporte</a></li>
+          </ul>
+        </div>
+
+        <!-- Legal / Datos -->
+        <div class="col-lg-2 col-md-4 footer-links">
+          <h4>LEGAL / DATOS</h4>
+          <ul>
+            <li><i class="fas fa-angle-right me-2"></i><a>RUC: 20525842721</a></li>
+            <li><i class="fas fa-angle-right me-2"></i><a>Registro OSCE / RNP</a></li>
+            <li><i class="fas fa-angle-right me-2"></i><a>Términos de servicio</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>&copy; <span id="year"></span><strong class="px-1 sitename">Sanlomar Group S.A.C.</strong>Todos los derechos
+        reservados
+      </p>
+
+      <div class="credits">
+        Diseñado por
+        <a class="fw-bold text-white">Sanlomar Group S.A.C.</a>
+      </div>
+    </div>
+  </footer>
+  <!-- /Footer Section -->
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="vendors/php-email-form/validate.js"></script>
+  <script src="vendors/aos/aos.js"></script>
+  <script src="vendors/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="vendors/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendors/swiper/swiper-bundle.min.js"></script>
+  <script src="vendors/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+    integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+    data-cf-beacon='{"version":"2024.11.0","token":"68c5ca450bae485a842ff76066d69420","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
